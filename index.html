@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <link rel="stylesheet" href="index.css">
+  </head>
+<body>
+<h2>Atelier tp.dom2</h2>
+
+<form action="/submit_form" method="post">
+  <label for="fname">nom:</label><br>
+  <input type="text" id="nom" name="fname"><br>
+  <label for="lname">prenom:</label><br>
+  <input type="text" id="prenom" name="lname"><br>
+  <label for="email">email:</label><br>
+  <input type="email" id="email" name="email"><br>
+  <label for="age">age:</label><br>
+  <input type="number" id="age" name="age"><br>
+  <label for="sex">Sex:</label><br>
+  <select id="sex" name="sex">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select><br>
+  <input type="submit" value="Envoyer">
+</form>
+
+<h2>Informations</h2>
+
+<div id="Informations">
+  <p>nom:<span id="nomInfo"></span></p>
+</div>
+<div>
+    <p>prenom: <span id="prenomInfo"></span></p>
+</div>
+<div>
+    <p>email: <span id="emailInfo"></span></p>
+</div>
+<div>
+    <p>age: <span id="ageInfo"></span></p>
+</div>
+<div>
+    <p>sex: <span id="sexInfo"></span></p>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,58 @@
+/* Styliser le formulaire dans son ensemble */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  }
+  
+  /* Styliser les étiquettes */
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+ /* Styliser les champs de saisie */
+  input[type="text"],
+  input[type="email"],
+  input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    font-size: 16px;
+  }
+  
+  /* Styliser le champ de sélection */
+  select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.1);
+    font-size: 16px;
+  }
+  
+  /* Styliser le bouton de soumission */
+  input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+  }
+  
+  /* Stylise les éléments span qui affichent les valeurs d'entrée */
+  span {
+    display: block;
+    margin-top: 5px;
+    font-weight: bold;
+  }
